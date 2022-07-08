@@ -361,4 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-Config.cs
+/MusicHub/Data/Config.cs
+/SoftUni/Data/Config.cs
+/P01_StudentSystem/Data/Config.cs
+/P03_FootballBetting/Data/Config.cs
