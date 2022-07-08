@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MusicHub.Data.Models
+namespace MusicHub.Data.Models.Enums
 {
     public enum Genre
     {

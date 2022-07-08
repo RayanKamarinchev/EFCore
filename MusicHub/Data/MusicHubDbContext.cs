@@ -6,13 +6,13 @@ using MusicHub.Data.Models;
 
 namespace MusicHub.Data
 {
-    public partial class MusicHubContext : DbContext
+    public partial class MusicHubDbContext : DbContext
     {
-        public MusicHubContext()
+        public MusicHubDbContext()
         {
         }
 
-        public MusicHubContext(DbContextOptions<MusicHubContext> options)
+        public MusicHubDbContext(DbContextOptions<MusicHubDbContext> options)
             : base(options)
         {
         }
@@ -29,8 +29,7 @@ namespace MusicHub.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(
-                    "Server=DESKTOP-7QAPP3E\\SQLEXPRESS;Database=MusicHub;Integrated Security=True;");
+                optionsBuilder.UseSqlServer(Config.ConnectionString);
             }
         }
 

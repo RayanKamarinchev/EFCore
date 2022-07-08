@@ -16,6 +16,8 @@ namespace P01_StudentSystem.Data
             : base(options)
         {
         }
+
+
         public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<Homework> HomeworkSubmissions { get; set; }
         public virtual DbSet<Resource> Resources { get; set; }
