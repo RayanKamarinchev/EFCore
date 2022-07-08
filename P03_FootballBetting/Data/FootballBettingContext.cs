@@ -42,7 +42,7 @@ namespace P03_FootballBetting.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=DESKTOP-7QAPP3E\\SQLEXPRESS;Database=FootballBetting;Integrated Security=True;");
+                optionsBuilder.UseSqlServer("");
             }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
