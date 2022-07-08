@@ -42,7 +42,7 @@ namespace P03_FootballBetting.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("");
+                optionsBuilder.UseSqlServer(Config.ConnectionString);
             }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
