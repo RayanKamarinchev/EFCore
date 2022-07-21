@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03_FootballBetting", "P03_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicHub", "MusicHub\MusicHub.csproj", "{4A3F049B-BC39-41C9-94E2-9FCB9BC25A51}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop", "BookShop\BookShop.csproj", "{B58B710F-C597-44F1-AA93-92FC2F54244E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4A3F049B-BC39-41C9-94E2-9FCB9BC25A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A3F049B-BC39-41C9-94E2-9FCB9BC25A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A3F049B-BC39-41C9-94E2-9FCB9BC25A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58B710F-C597-44F1-AA93-92FC2F54244E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58B710F-C597-44F1-AA93-92FC2F54244E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58B710F-C597-44F1-AA93-92FC2F54244E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58B710F-C597-44F1-AA93-92FC2F54244E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
