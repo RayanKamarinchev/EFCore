@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicHub", "MusicHub\MusicH
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop", "BookShop\BookShop.csproj", "{B58B710F-C597-44F1-AA93-92FC2F54244E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductShop", "ProductShop\ProductShop.csproj", "{59A3B409-8F2A-4E49-B0E5-1E6E3724AD54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarDealer", "CarDealer\CarDealer.csproj", "{96728C29-7347-4AB2-A2B1-52525BE6594E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{B58B710F-C597-44F1-AA93-92FC2F54244E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B58B710F-C597-44F1-AA93-92FC2F54244E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B58B710F-C597-44F1-AA93-92FC2F54244E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A3B409-8F2A-4E49-B0E5-1E6E3724AD54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A3B409-8F2A-4E49-B0E5-1E6E3724AD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A3B409-8F2A-4E49-B0E5-1E6E3724AD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A3B409-8F2A-4E49-B0E5-1E6E3724AD54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96728C29-7347-4AB2-A2B1-52525BE6594E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96728C29-7347-4AB2-A2B1-52525BE6594E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96728C29-7347-4AB2-A2B1-52525BE6594E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96728C29-7347-4AB2-A2B1-52525BE6594E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
